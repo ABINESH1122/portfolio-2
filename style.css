@@ -36,4 +36,12 @@
     width: 100%;
     left: 0;
   }
-  
+  .icon-hover {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.icon-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
